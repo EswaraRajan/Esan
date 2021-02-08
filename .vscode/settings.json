@@ -16,4 +16,9 @@
     "[python]": {
         "editor.tabSize": 4,
     },
+    "json.schemas": [
+
+        "python.pythonPath": "Esan_venv_path/bin/python"
+        "python.pythonPath": "Your_venv_path/Scripts/python.exe"
+    ]
 }
