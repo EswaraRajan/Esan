@@ -24,6 +24,7 @@ cd app
 
 python .\manage.py runserver
 
+
 # Update in the model
 
 python .\manage.py makemigrations
