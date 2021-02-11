@@ -103,11 +103,7 @@ class User(AbstractBaseUser, PermissionsMixin):
         blank=True,
         null=True,
     )
-    picture = models.ImageField(
-        max_length=100,
-        blank=True,
-        null=True,
-    )
+    picture = models.ImageField(upload_to='')
     roles = models.ForeignKey(
         'Role',
         blank=True,
